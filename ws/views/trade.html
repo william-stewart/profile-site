@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>William Stewart - Software Developer</title>
+    <meta name="description" content="William Stewart - Software Developer and Technical Consultant.">
+    <link rel="icon" type="image/png" sizes="80x80" href="assets/img/icons8-user-80.png">
+    <link rel="icon" type="image/png" sizes="80x80" href="assets/img/icons8-user-80.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
+<link rel="icon" href="icons8-user-80.png"><script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><a class="navbar-brand logo" href="index.html">WS</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navbarNav">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html#projects">Projects</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="cv.html">Resume</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#" style="color: #fff;font-family: Lato,sans-serif;font-weight: 700;">Software</a>
+                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="trade.html">(In Dev) Stock Trading Platform</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main></main>
+    <div style="margin-top: 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Trend Trader</h4>
+                            <h6 class="text-muted card-subtitle mb-2">An Automated Stock Trading Platform</h6>
+                            <p class="card-text">This application is meant to allow users to create configurable stock trading strategies (bots) that will buy and trade stocks automatically according to their custom strategy. Users compete to see who can create the best performing
+                                strategy.</p><a class="card-link" id="playlink" href="#">Play</a><a class="card-link" href="https://github.com/william-stewart/trend-trader">See the code</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 10px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card" id="TopStrategies">
+                        <div class="card-body">
+                            <h4 class="card-title">Strategies - Top 5</h4>
+                        </div><div><canvas id="top5strats"></canvas></div></div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card" id="TopStocks">
+                        <div class="card-body">
+                            <h4 class="card-title">Stocks - Top 5</h4>
+                        </div><div><canvas id="top5stocks"></canvas></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 10px;margin-bottom: 10px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6"></div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/communicate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
